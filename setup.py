@@ -33,7 +33,7 @@ def grep(attrname):
 setup(
     name='Flask-Admin-Patch',
     version=grep('__version__'),
-    url='https://github.com/flask-admin/flask-admin/',
+    url='https://github.com/WiFast/flask-admin/',
     license='BSD',
     author=grep('__author__'),
     author_email=grep('__email__'),
