@@ -2,9 +2,9 @@ from peewee import PrimaryKeyField
 
 
 def get_primary_key(model):
-    for n, f in model._meta.get_sorted_fields():
+    for f in model._meta.sorted_fields:
         if type(f) == PrimaryKeyField or f.primary_key:
-            return n
+            return f.name
 
 
 def parse_like_term(term):
