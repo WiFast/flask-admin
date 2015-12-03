@@ -31,7 +31,7 @@ def grep(attrname):
 
 
 setup(
-    name='Flask-Admin-Patch',
+    name='Flask-AdminPatch',
     version=grep('__version__'),
     url='https://github.com/WiFast/flask-admin/',
     license='BSD',
